@@ -1,0 +1,580 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	VrfExportedSound = 
+	{
+		_class = "CVoiceContainerDefault"
+		m_vSound = 
+		{
+			m_nRate = 44100
+			m_nFormat = "MP3"
+			m_nChannels = 1
+			m_nLoopStart = -1
+			m_nSampleCount = 120025
+			m_flDuration = 2.721655
+			m_Sentences = [  ]
+			m_nStreamingSize = 43265
+			m_nSeekTable = [  ]
+			m_nLoopEnd = 0
+			m_encodedHeader = #[  ]
+		}
+		m_pEnvelopeAnalyzer = 
+		{
+			_class = "CVoiceContainerEnvelopeAnalyzer"
+			m_bRegenerateCurveOnCompile = true
+			m_curve = 
+			{
+				m_spline = 
+				[
+					{
+						x = 0.0
+						y = 0.263466
+						m_flSlopeIncoming = 0.0
+						m_flSlopeOutgoing = 0.569317
+					},
+					{
+						x = 0.05
+						y = 0.291932
+						m_flSlopeIncoming = 0.569317
+						m_flSlopeOutgoing = -1.525953
+					},
+					{
+						x = 0.1
+						y = 0.215634
+						m_flSlopeIncoming = -1.525953
+						m_flSlopeOutgoing = 0.489348
+					},
+					{
+						x = 0.15
+						y = 0.240102
+						m_flSlopeIncoming = 0.489348
+						m_flSlopeOutgoing = -0.373772
+					},
+					{
+						x = 0.2
+						y = 0.221413
+						m_flSlopeIncoming = -0.373772
+						m_flSlopeOutgoing = -0.489335
+					},
+					{
+						x = 0.25
+						y = 0.196947
+						m_flSlopeIncoming = -0.489335
+						m_flSlopeOutgoing = -2.078674
+					},
+					{
+						x = 0.3
+						y = 0.093013
+						m_flSlopeIncoming = -2.078674
+						m_flSlopeOutgoing = 3.728681
+					},
+					{
+						x = 0.35
+						y = 0.279447
+						m_flSlopeIncoming = 3.728681
+						m_flSlopeOutgoing = -0.260396
+					},
+					{
+						x = 0.4
+						y = 0.266427
+						m_flSlopeIncoming = -0.260396
+						m_flSlopeOutgoing = 0.373718
+					},
+					{
+						x = 0.45
+						y = 0.285113
+						m_flSlopeIncoming = 0.373718
+						m_flSlopeOutgoing = -0.992713
+					},
+					{
+						x = 0.5
+						y = 0.235477
+						m_flSlopeIncoming = -0.992713
+						m_flSlopeOutgoing = 0.744621
+					},
+					{
+						x = 0.55
+						y = 0.272708
+						m_flSlopeIncoming = 0.744621
+						m_flSlopeOutgoing = -0.117373
+					},
+					{
+						x = 0.6
+						y = 0.26684
+						m_flSlopeIncoming = -0.117373
+						m_flSlopeOutgoing = -1.670633
+					},
+					{
+						x = 0.65
+						y = 0.183308
+						m_flSlopeIncoming = -1.670633
+						m_flSlopeOutgoing = -1.232855
+					},
+					{
+						x = 0.7
+						y = 0.121665
+						m_flSlopeIncoming = -1.232855
+						m_flSlopeOutgoing = 3.803821
+					},
+					{
+						x = 0.75
+						y = 0.311856
+						m_flSlopeIncoming = 3.803821
+						m_flSlopeOutgoing = -0.450719
+					},
+					{
+						x = 0.8
+						y = 0.28932
+						m_flSlopeIncoming = -0.450719
+						m_flSlopeOutgoing = -0.552455
+					},
+					{
+						x = 0.85
+						y = 0.261698
+						m_flSlopeIncoming = -0.552455
+						m_flSlopeOutgoing = -3.909848
+					},
+					{
+						x = 0.9
+						y = 0.066205
+						m_flSlopeIncoming = -3.909848
+						m_flSlopeOutgoing = -1.021649
+					},
+					{
+						x = 0.95
+						y = 0.015123
+						m_flSlopeIncoming = -1.021649
+						m_flSlopeOutgoing = -0.302459
+					},
+					{
+						x = 1.0
+						y = 0.0
+						m_flSlopeIncoming = -0.302459
+						m_flSlopeOutgoing = 4.832079
+					},
+					{
+						x = 1.05
+						y = 0.241604
+						m_flSlopeIncoming = 4.832079
+						m_flSlopeOutgoing = 1.155728
+					},
+					{
+						x = 1.1
+						y = 0.29939
+						m_flSlopeIncoming = 1.155728
+						m_flSlopeOutgoing = -0.133943
+					},
+					{
+						x = 1.15
+						y = 0.292693
+						m_flSlopeIncoming = -0.133943
+						m_flSlopeOutgoing = 0.326281
+					},
+					{
+						x = 1.2
+						y = 0.309007
+						m_flSlopeIncoming = 0.326281
+						m_flSlopeOutgoing = 0.241627
+					},
+					{
+						x = 1.25
+						y = 0.321089
+						m_flSlopeIncoming = 0.241627
+						m_flSlopeOutgoing = -0.006021
+					},
+					{
+						x = 1.3
+						y = 0.320787
+						m_flSlopeIncoming = -0.006021
+						m_flSlopeOutgoing = -2.089074
+					},
+					{
+						x = 1.35
+						y = 0.216334
+						m_flSlopeIncoming = -2.089074
+						m_flSlopeOutgoing = -2.157342
+					},
+					{
+						x = 1.4
+						y = 0.108467
+						m_flSlopeIncoming = -2.157342
+						m_flSlopeOutgoing = 0.40418
+					},
+					{
+						x = 1.45
+						y = 0.128676
+						m_flSlopeIncoming = 0.40418
+						m_flSlopeOutgoing = 1.059786
+					},
+					{
+						x = 1.5
+						y = 0.181665
+						m_flSlopeIncoming = 1.059786
+						m_flSlopeOutgoing = 0.848007
+					},
+					{
+						x = 1.55
+						y = 0.224065
+						m_flSlopeIncoming = 0.848007
+						m_flSlopeOutgoing = -0.083529
+					},
+					{
+						x = 1.6
+						y = 0.219889
+						m_flSlopeIncoming = -0.083529
+						m_flSlopeOutgoing = -0.179601
+					},
+					{
+						x = 1.65
+						y = 0.210909
+						m_flSlopeIncoming = -0.179601
+						m_flSlopeOutgoing = -2.129229
+					},
+					{
+						x = 1.7
+						y = 0.104447
+						m_flSlopeIncoming = -2.129229
+						m_flSlopeOutgoing = -0.972762
+					},
+					{
+						x = 1.75
+						y = 0.055809
+						m_flSlopeIncoming = -0.972762
+						m_flSlopeOutgoing = 2.847007
+					},
+					{
+						x = 1.8
+						y = 0.198159
+						m_flSlopeIncoming = 2.847007
+						m_flSlopeOutgoing = 0.161044
+					},
+					{
+						x = 1.85
+						y = 0.206212
+						m_flSlopeIncoming = 0.161044
+						m_flSlopeOutgoing = -0.721127
+					},
+					{
+						x = 1.9
+						y = 0.170155
+						m_flSlopeIncoming = -0.721127
+						m_flSlopeOutgoing = -1.119654
+					},
+					{
+						x = 1.95
+						y = 0.114172
+						m_flSlopeIncoming = -1.119654
+						m_flSlopeOutgoing = 1.607965
+					},
+					{
+						x = 2.0
+						y = 0.194571
+						m_flSlopeIncoming = 1.607965
+						m_flSlopeOutgoing = -0.160712
+					},
+					{
+						x = 2.05
+						y = 0.186535
+						m_flSlopeIncoming = -0.160712
+						m_flSlopeOutgoing = -1.872069
+					},
+					{
+						x = 2.1
+						y = 0.092932
+						m_flSlopeIncoming = -1.872069
+						m_flSlopeOutgoing = 2.010724
+					},
+					{
+						x = 2.15
+						y = 0.193468
+						m_flSlopeIncoming = 2.010724
+						m_flSlopeOutgoing = -0.323388
+					},
+					{
+						x = 2.2
+						y = 0.177299
+						m_flSlopeIncoming = -0.323388
+						m_flSlopeOutgoing = -0.722696
+					},
+					{
+						x = 2.25
+						y = 0.141164
+						m_flSlopeIncoming = -0.722696
+						m_flSlopeOutgoing = 0.196459
+					},
+					{
+						x = 2.3
+						y = 0.150987
+						m_flSlopeIncoming = 0.196459
+						m_flSlopeOutgoing = -0.995511
+					},
+					{
+						x = 2.35
+						y = 0.101212
+						m_flSlopeIncoming = -0.995511
+						m_flSlopeOutgoing = -1.455375
+					},
+					{
+						x = 2.4
+						y = 0.028443
+						m_flSlopeIncoming = -1.455375
+						m_flSlopeOutgoing = -0.568851
+					},
+					{
+						x = 2.45
+						y = 0.0
+						m_flSlopeIncoming = -0.568851
+						m_flSlopeOutgoing = 0.0
+					},
+					{
+						x = 2.5
+						y = 0.0
+						m_flSlopeIncoming = 0.0
+						m_flSlopeOutgoing = 0.0
+					},
+					{
+						x = 2.55
+						y = 0.0
+						m_flSlopeIncoming = 0.0
+						m_flSlopeOutgoing = 0.0
+					},
+					{
+						x = 2.6
+						y = 0.0
+						m_flSlopeIncoming = 0.0
+						m_flSlopeOutgoing = 0.0
+					},
+					{
+						x = 2.65
+						y = 0.0
+						m_flSlopeIncoming = 0.0
+						m_flSlopeOutgoing = 0.0
+					},
+				]
+				m_tangents = 
+				[
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+				]
+				m_vDomainMins = [ 0.0, 0.0 ]
+				m_vDomainMaxs = [ 2.721655, 1.0 ]
+			}
+			m_mode = "RMS"
+			m_fAnalysisWindowMs = 50.0
+			m_flThreshold = 0.01
+		}
+	}
+}
